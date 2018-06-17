@@ -36,9 +36,10 @@ const run = async () => {
     return bootmod3.downloadAndSaveLog(id, logPath);
   });
 
-  Promise.all(processLogs).then(() => {
-    return 'SUCCESS';
-  })
+  return Promise.all(processLogs)
+    .then(() => {
+      return 'SUCCESS';
+    });
 };
 
 
