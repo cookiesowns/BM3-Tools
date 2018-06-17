@@ -1,0 +1,16 @@
+{
+  "name": "bm3-tools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "log-downloader.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "lodash": "^4.17.10",
+    "mkdirp": "^0.5.1"
+  }
+}
